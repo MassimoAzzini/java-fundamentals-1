@@ -36,5 +36,7 @@ public class TrainTicket {
         }
 
         System.out.println("Prezzo finale del biglietto: " + finalPrice + "€");
+
+        keyboardReader.close();
     }
 }

@@ -10,7 +10,7 @@ public class FerragnezParty {
         System.out.print("Come ti chiami?");
         String guestName = keyboardReader.nextLine();
 
-        System.out.println(guestName);
+
 
         boolean inList = false;
 
@@ -25,14 +25,6 @@ public class FerragnezParty {
         } else {
             System.out.println("Mi dispiace ma non sei in lista.");
         }
-
-
-
-
-
-
-
-
 
         keyboardReader.close();
     }
